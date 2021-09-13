@@ -1,0 +1,28 @@
+{
+  "name": "cli-command-line-interface-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuliaDobrova/CLI-Command-line-interface-Node.git"
+  },
+  "author": "YuliaDobrova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuliaDobrova/CLI-Command-line-interface-Node/issues"
+  },
+  "homepage": "https://github.com/YuliaDobrova/CLI-Command-line-interface-Node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "commander": "^8.2.0",
+    "uuid": "^8.3.2"
+  }
+}
